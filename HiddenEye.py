@@ -24,6 +24,7 @@ readConfig()
 if __name__ == "__main__":
     try:
         runMainMenu()
+        mainMenu()
         
         keyloggerprompt()
         addingkeylogger()
